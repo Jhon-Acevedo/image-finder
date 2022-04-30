@@ -1,0 +1,39 @@
+html {
+    box-sizing: content-box;
+}
+
+html * {
+    box-sizing: inherit;
+}
+
+header {
+    display: flex;
+    background-color: white;
+    justify-content : space-between;
+    padding: 22px;
+    z-index: 2;
+    position: relative;
+    box-shadow: 1px 2px 5px rgb(0, 0, 0, 0.3);
+}
+
+header Form{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+header input {
+    max-width: 1800px;
+    min-width: 600px;
+    outline: none;
+    border: solid 1px #eee;
+    padding: 10px 5px;
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    color: #767676;
+    margin-left: 15px;
+}
+
+
